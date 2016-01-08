@@ -5,8 +5,8 @@
   "license": "MIT",
   "scripts": {
     "start": "budo src/index.js:dist/bundle.js --live --verbose --port 3000 --open -t babelify",
-    "deploy": "ghpages",
-    "ghpages": "ghpages"
+    "deploy": "browserify src/index.js -o dist/bundle.js && ghpages && rm dist/bundle.js",
+    "ghpages": "browserify src/index.js -o dist/bundle.js && ghpages && rm dist/bundle.js"
   },
   "devDependencies": {
     "aframe": "^0.1.1",
