@@ -1,6 +1,6 @@
 {
-  "name": "aframe-boilerplate",
-  "description": "Boilerplate for creating WebVR scenes using A-Frame",
+  "name": "CPF-VRcollab",
+  "description": "CPF",
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
@@ -17,9 +17,7 @@
     "polymerize": "^1.0.0"
   },
   "keywords": [
-    "aframe",
     "aframe-example",
-    "aframe-scene",
-    "aframe-boilerplate"
+    "aframe-scene"
   ]
 }
