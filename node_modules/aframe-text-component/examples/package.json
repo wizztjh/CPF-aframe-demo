@@ -1,0 +1,12 @@
+{
+  "devDependencies": {
+    "aframe-core": "*",
+    "browserify": "^12.0.1",
+    "browserify-css": "^0.8.3",
+    "watchify": "^3.6.1"
+  },
+  "scripts": {
+    "build": "browserify main.js -o build.js ",
+    "dev": "watchify main.js -o build.js --verbose"
+  }
+}
